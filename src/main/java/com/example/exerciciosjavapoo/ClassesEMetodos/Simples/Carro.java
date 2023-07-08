@@ -1,6 +1,6 @@
-package com.example.exerciciosjavapoo.ClassesEMetodos;
+package com.example.exerciciosjavapoo.ClassesEMetodos.Simples;
 
-public class MetodoSimples {
+public class Carro {
 
     String marca;
     String modelo;

@@ -1,10 +1,10 @@
-package com.example.exerciciosjavapoo.ClassesEMetodos;
+package com.example.exerciciosjavapoo.ClassesEMetodos.Simples;
 
-public class TesteMetodoSimples {
+public class TesteCarro {
 
     public static void main(String[] args) {
 
-        MetodoSimples van = new MetodoSimples();
+        Carro van = new Carro();
         van.marca = "Fiat";
         van.modelo = "Ducato";
         van.numPassageiros = 10;
@@ -13,7 +13,7 @@ public class TesteMetodoSimples {
 
         van.exibirAtributos();
 
-        MetodoSimples fusca = new MetodoSimples();
+        Carro fusca = new Carro();
         fusca.marca = "Volkwagen";
         fusca.modelo = "Fusca";
         fusca.numPassageiros = 4;
